@@ -1,0 +1,115 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Suds Car Detailing | Knoxville, TN</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<!-- TOP NAV -->
+<header class="navbar">
+  <div class="logo">
+    <img src="logo.png" alt="Suds Logo">
+    <h1>Suds Detailing</h1>
+  </div>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h2>Premium Car Detailing in Knoxville</h2>
+    <p>Clean cars. Sharp shine. Interior & exterior perfection.</p>
+
+    <div class="buttons">
+      <a href="tel:8656036858" class="btn">Call Now</a>
+      <a href="#contact" class="btn outline">Book Appointment</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <h2>Our Services</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Exterior Detail</h3>
+      <p>$100 – $135</p>
+    </div>
+
+    <div class="card">
+      <h3>Interior Detail</h3>
+      <p>$80 – $100</p>
+    </div>
+
+    <div class="card">
+      <h3>Full Detail</h3>
+      <p>$210 – $240</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <h2>About Suds</h2>
+  <p>
+    Suds Car Detailing provides high-quality mobile-style detailing services
+    across Knoxville, TN. We focus on deep cleaning, shine, and making your
+    car feel brand new again.
+  </p>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section">
+  <h2>Before & After</h2>
+
+  <div class="gallery">
+    <div class="img-box">Before</div>
+    <div class="img-box">After</div>
+    <div class="img-box">Interior</div>
+    <div class="img-box">Exterior Shine</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Book Your Detail</h2>
+  <p>Text, call, or send a request and we’ll get back to you fast.</p>
+
+  <div class="contact-info">
+    <p><strong>Phone:</strong> 865-603-6858</p>
+    <p><strong>Location:</strong> Knoxville, TN</p>
+    <p><strong>Instagram:</strong> @yourusername (coming soon)</p>
+  </div>
+
+  <form id="form">
+    <input type="text" placeholder="Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <textarea placeholder="What do you want done?" required></textarea>
+    <button type="submit">Send Request</button>
+  </form>
+
+  <div class="buttons bottom">
+    <a href="tel:8656036858" class="btn">Call Now</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Suds Car Detailing — Knoxville, TN</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

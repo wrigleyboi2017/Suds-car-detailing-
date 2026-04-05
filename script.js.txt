@@ -1,0 +1,6 @@
+script.js
+
+document.getElementById("form").addEventListener("submit", function(e) {
+  e.preventDefault();
+  alert("Request sent! We’ll text you back soon.");
+});
